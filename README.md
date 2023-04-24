@@ -8,5 +8,8 @@ docker build . -t ruby-env
 
 ## Run
 ```shell
-docker run -it ruby-env
+docker run -it \
+  --name ruby-env-container \
+  --mount type=bind,source="$(pwd)",target=/app \
+  ruby-env
 ```
