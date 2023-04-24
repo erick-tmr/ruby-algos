@@ -13,7 +13,12 @@ module OptimalAccountBalancing
     end
 
     def call
-      puts 'Hello'
+      accounts = {}
+
+      @transactions.each do |transaction|
+        accounts[transaction[0]] = (accounts[transaction[0]] || 0) - transaction[2]
+        accounts[transaction[1]] = (accounts[transaction[1]] || 0) + transaction[2]
+      end
     end
   end
 end
