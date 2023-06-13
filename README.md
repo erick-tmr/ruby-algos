@@ -13,3 +13,8 @@ docker run -it --rm \
   --mount type=bind,source="$(pwd)",target=/app \
   ruby-env
 ```
+
+## Inside container
+```shell
+ruby test_api.rb
+```
