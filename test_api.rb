@@ -1,4 +1,4 @@
-require 'openpix/rubysdk'
+require 'openpix/ruby_sdk'
 
 # Your AppID from https://app.woovi.com/home/applications/tab/list
 app_id = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
